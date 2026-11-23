@@ -97,9 +97,9 @@ public class SemicircleClockSlider : MonoBehaviour, IPointerDownHandler, IDragHa
         dayCaption.text = "Gündüz";
         dayCaption.color = new Color(0.86f, 0.8f, 0.66f, 0.85f);
 
-        CreatePresetButton("Gün doğumu", 6.3f, 0f);
-        CreatePresetButton("Öğlen", 12f, 1f);
-        CreatePresetButton("Gün batımı", 17.9f, 2f);
+        CreatePresetButton("Gün doğumu", 6.1f, 0f);
+        CreatePresetButton("Öğlen", 16.5f, 1f);
+        CreatePresetButton("Gün batımı", 17.7f, 2f);
         CreatePresetButton("Gece", 0f, 3f);
     }
 
