@@ -26,6 +26,8 @@ public class DayNightController : MonoBehaviour
     [SerializeField] GameObject bathroomAreaLight;
     [SerializeField] GameObject bathroomCeilingAreaLight;
 
+    [SerializeField] GameObject secondFloorAreaLight;
+
     [SerializeField] Transform firstFloorLed;
 
     [Header("Gece Ayarları")]
@@ -165,6 +167,8 @@ public class DayNightController : MonoBehaviour
 
         SetInteriorLight(bathroomAreaLight, interiorDimmer);
         SetInteriorLight(bathroomCeilingAreaLight, interiorDimmer);
+
+        SetInteriorLight(secondFloorAreaLight, interiorDimmer);
 
         if (!ledsCached)
             CacheLedWhites();
